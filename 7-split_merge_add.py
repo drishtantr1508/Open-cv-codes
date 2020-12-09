@@ -19,7 +19,7 @@ img [273:333, 100:160] = ball
 img = cv2.resize (img, (1800, 900))
 img2 = cv2.resize (img2, (1800, 900))
 
-dst = cv2.addWeighted (img, .7, img2, .3, 0); 
+dst = cv2.addWeighted  (img, .7, img2, .3, 0); 
 
 cv2.imshow ('image', dst)
 
@@ -29,7 +29,7 @@ k = cv2.waitKey()
 if k==27:
     cv2.destroyAllWindows()
 elif k==ord('s'):
-    cv2.imwrite("mouseclick2.png", img)
+    cv2.imwrite("mouseclick2.png",img)
     cv2.destroyAllWindows()
 
 
