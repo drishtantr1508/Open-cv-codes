@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 img1 = np.zeros((250, 500, 3), np.uint8)
-img1 = cv2.rectangle(img1,(200, 0), (300, 100), (255, 255, 255), -1)
+img1 = cv2.rectangle(img1, (200, 0), (300, 100), (255, 255, 255), -1)
 img2 = cv2.imread("photos/small_book.jpg")
-img2 = cv2.resize(img2,(500,250))
+img2 = cv2.resize(img2, (500, 250))
 bitAnd = cv2.bitwise_and(img2, img1)
 bitOr = cv2.bitwise_or(img2, img1)
 bitXor = cv2.bitwise_xor(img1, img2)
