@@ -23,3 +23,4 @@ for i in range(6):
     plt.xticks([]), plt.yticks([])
 
 plt.show()
+#this was tested from ranger application...
