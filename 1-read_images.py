@@ -19,3 +19,5 @@ if k == 27:
 elif k == ord('s'):
     cv.imwrite("photos/small_book_copy.png", book_img)
     cv.destroyAllWindows()
+# this comment is being posted through ranger
+
